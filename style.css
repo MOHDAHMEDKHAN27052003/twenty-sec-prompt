@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.75% 8%;
+    border-bottom: 1px solid gainsboro;
+}
+
+header nav{
+    display: flex;
+    gap: 25%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+header i{
+    display: none;
+}
+
+main{
+    padding: 6% 8%;
+}
+
+main > h1{
+    font-size: 225%;
+}
+
+main #heading-with-icons h1{ 
+    font-size: 1050%;
+    font-weight: 500;
+}
+
+main #heading-with-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main #heading-with-icons i{
+    font-size: 200%;
+}
+
+#section-one{
+    padding: 6% 8%;
+    display: flex;
+    gap: 40%;
+}
+
+#section-one a{
+    text-decoration: none;
+    color: black;
+    font-size: 125%;
+    font-weight: 500;
+    padding: 5% 0;
+    display: block;
+}
+
+#section-one #social-icons{
+    display: flex;
+    gap: 7.5%;
+    padding: 18% 0;
+}
+
+#section-one #social-icons i{
+    font-size: 150%;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+#section-one p{
+    font-size: 110%;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+
+#section-one button{
+    padding: 2.5% 4.5%;
+    font-size: 95%;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#img-section{
+    display: flex;
+    gap: 1%;
+}
+
+#img-section #middle-img{
+    width: 50%;
+}
+
+#img-section .corner-img{
+    width: 25%;
+}

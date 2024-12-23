@@ -1,0 +1,60 @@
+/* Media Queries */
+  @media only screen and (max-width: 1200px) {
+    /* Styles for screens smaller than 1200px */
+  }
+  
+  @media only screen and (max-width: 992px) {
+    /* Styles for screens smaller than 992px */
+    html{
+      font-size: 14px;
+    }
+    main #heading-with-icons{
+      flex-wrap: wrap;
+  }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+  }
+  
+  @media only screen and (max-width: 576px) {
+    /* Styles for screens smaller than 576px */
+    html{
+      font-size: 10px;
+    }
+
+    header #contact{
+      display: none;
+    }
+
+    header .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens smaller than 480px */
+    html{
+      font-size: 8px;
+    }
+
+    header #contact{
+      display: none;
+    }
+
+    header a{
+        display: none;
+    }
+
+    header .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    /* Styles for screens smaller than 360px */
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* Styles for screens smaller than 320px */
+  }  
